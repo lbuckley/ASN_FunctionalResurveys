@@ -50,13 +50,19 @@ This data repository consist of 2 data files, 1 code script, and this README doc
 ## Data files and variables
 1. data/dickman_et_al_2019_emergence.csv from Dickman et al. 2019
 
-2. data/data_ClaytonSpicer2020.csv from Clayton and Spicer 2020 
+pop:	population, divided into three lowest elevation, three intermediate and three high. See Figure 1. 
+year:	generation, 1= pre drought, 2= drought
+cohort:	germination cohort (O=untreated; GA=gibberelic acid; V=vernalized), see Methods
+elevation_m:	elevation of each population (site) in meters 
+tray:	planting tray
+timeemer: days to emergence 
+emerged:	1= did not emerge (censored value is 220 for generation 1 and 22 for generation 2, the day the experiments ended), 2=emerged
 
-Temperature: Temperature (C)
-DT_egg: development time as eggs (days)
-DT_larvae: development time as larvae (days)
-DT_pupae: development time as pupae (days)
-DT_total: total development time (days)
+2. data/data_ClaytonSpicer2020.csv. Extracted from Fig. 1 in Clayton and Spicer 2020
+
+year: study year
+salinity: salinity (arbitrary units)
+wound_healing_time_d: wound healing time (day)
 
 ## Code scripts and workflow
 1. ResurveyPlots.R: code for producing figure 2
