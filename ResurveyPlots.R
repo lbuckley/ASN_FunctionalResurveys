@@ -1,9 +1,11 @@
-library(plyr)
-library(dplyr)
-library(reshape2)
-library(tidyr)
-library(ggplot2)
-library(patchwork)
+#R version 4.1.0 (2021-05-18)
+
+library(ggplot2) #ggplot2_3.4.4
+library(reshape2) #reshape2_1.4.4
+library(patchwork) #patchwork_1.2.0
+library(plyr) #plyr_1.8.8
+library(dplyr) #dplyr_1.1.2
+library(tidyr) #tidyr_1.3.0
 
 setwd("/Users/laurenbuckley/Google Drive/My Drive/Buckley/Work/ASNsymposium/data/")
 #setwd("/Volumes/GoogleDrive/My Drive/Buckley/Work/ASNsymposium/data/")
