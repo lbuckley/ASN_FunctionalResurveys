@@ -7,14 +7,11 @@ library(plyr) #plyr_1.8.8
 library(dplyr) #dplyr_1.1.2
 library(tidyr) #tidyr_1.3.0
 
-setwd("/Users/laurenbuckley/Google Drive/My Drive/Buckley/Work/ASNsymposium/data/")
-#setwd("/Volumes/GoogleDrive/My Drive/Buckley/Work/ASNsymposium/data/")
-
 #----
 #Monkey flower emergence, etc
 #Dickman et al. 2019
 
-dat1<- read.csv("dickman_et_al_2019_emergence.csv")
+dat1<- read.csv("data/dickman_et_al_2019_emergence.csv")
 
 #mean metric
 dat1.m= dat1 %>%
@@ -35,7 +32,7 @@ figa<- ggplot(data=dat1.m[dat1.m$emerged==1,], aes(x=elevation_m, y =timeemer.m,
 #----
 #Flatworm regeneration
 #Clayton and Spicer 2020 
-dat1<- read.csv("data_ClaytonSpicer2020.csv")
+dat1<- read.csv("data/data_ClaytonSpicer2020.csv")
 
 figb<- ggplot(dat1, aes(x=salinity, y =wound_healing_time_d, color=factor(year) ))+
   geom_point(size=3)+ geom_line()+theme_classic(base_size = 18)+
@@ -46,12 +43,12 @@ figb<- ggplot(dat1, aes(x=salinity, y =wound_healing_time_d, color=factor(year) 
 #----
 #Save figure
 
-setwd("/Users/laurenbuckley/Google Drive/My Drive/Buckley/Work/ASNsymposium/figures/")
-#setwd("/Volumes/GoogleDrive/My Drive/Buckley/Work/ASNsymposium/figures/")
+fig2<- figa +figb + plot_annotation(tag_levels = 'A')
 
-pdf("Fig_examples.pdf",height = 4, width = 8)
-figa +figb + plot_annotation(tag_levels = 'A')
-dev.off()
+#setwd("/Users/laurenbuckley/Google Drive/My Drive/Buckley/Work/ASNsymposium/figures/")
+#pdf("Fig_examples.pdf",height = 4, width = 8)
+#fig2
+#dev.off()
 
 
 

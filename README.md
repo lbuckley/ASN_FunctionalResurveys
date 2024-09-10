@@ -51,17 +51,25 @@ This data repository consist of 2 data files, 1 code script, and this README doc
 1. data/dickman_et_al_2019_emergence.csv from Dickman et al. 2019
 
 pop:	population, divided into three lowest elevation, three intermediate and three high. See Figure 1. 
+
 year:	generation, 1= pre drought, 2= drought
+
 cohort:	germination cohort (O=untreated; GA=gibberelic acid; V=vernalized), see Methods
+
 elevation_m:	elevation of each population (site) in meters 
+
 tray:	planting tray
+
 timeemer: days to emergence 
+
 emerged:	1= did not emerge (censored value is 220 for generation 1 and 22 for generation 2, the day the experiments ended), 2=emerged
 
 2. data/data_ClaytonSpicer2020.csv. Extracted from Fig. 1 in Clayton and Spicer 2020
 
 year: study year
+
 salinity: salinity (arbitrary units)
+
 wound_healing_time_d: wound healing time (day)
 
 ## Code scripts and workflow
@@ -71,11 +79,17 @@ wound_healing_time_d: wound healing time (day)
 R version 4.1.0 (2021-05-18)
 
 Packages:
+
 library(ggplot2) #ggplot2_3.4.4
+
 library(reshape2) #reshape2_1.4.4
+
 library(patchwork) #patchwork_1.2.0
+
 library(plyr) #plyr_1.8.8
+
 library(dplyr) #dplyr_1.1.2
+
 library(tidyr) #tidyr_1.3.0
 
 # REFERENCES
