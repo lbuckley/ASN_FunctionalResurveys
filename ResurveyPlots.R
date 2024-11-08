@@ -25,7 +25,7 @@ dat1.m$generation <- factor(dat1.m$generation, levels=c("Pre-drought","Drought")
 
 figa<- ggplot(data=dat1.m[dat1.m$emerged==1,], aes(x=elevation_m, y =timeemer.m, color=generation, group=factor(year)))+geom_smooth(method="lm", se=FALSE)+geom_point(size=3)+theme_classic(base_size = 18)+
   scale_color_manual(values=c("blue","darkorange") )+
-  ylab("Mean days to emergence")+xlab("Elevation")+theme(legend.position=c(0.4,0.9))+
+  ylab("Mean days to emergence")+xlab("Elevation (m)")+theme(legend.position=c(0.4,0.9))+
   geom_errorbar( aes(x=elevation_m, y=timeemer.m, ymin=timeemer.m-se, ymax=timeemer.m+se) )
 #position=position_dodge(width = 100)
   
@@ -37,7 +37,7 @@ dat1<- read.csv("data/data_ClaytonSpicer2020.csv")
 figb<- ggplot(dat1, aes(x=salinity, y =wound_healing_time_d, color=factor(year) ))+
   geom_point(size=3)+ geom_line()+theme_classic(base_size = 18)+
   scale_color_manual(values=c("blue","darkorange"), name="year" )+
-  ylab("Wound healing time (d)")+xlab("Salinity")+
+  ylab("Wound healing time (d)")+xlab("Salinity (arbitrary units)")+
   theme(legend.position=c(0.4,0.9))
 
 #----
