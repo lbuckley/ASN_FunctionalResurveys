@@ -1,6 +1,8 @@
 # ASN Functional Resurveys
 Analyses associated with an overview of functional resurvey introducing the ASN Vice Presidental Symposium.
 
+[![DOI](https://zenodo.org/badge/809161753.svg)](https://doi.org/10.5281/zenodo.14895104)
+
 # GENERAL INFORMATION
 
 This README.md file was updated on February 20, 2025 by Lauren Buckley
