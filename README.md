@@ -3,12 +3,12 @@ Analyses associated with an overview of functional resurvey introducing the ASN 
 
 # GENERAL INFORMATION
 
-This README.md file was updated on September 10, 2024 by Lauren Buckley
+This README.md file was updated on February 20, 2025 by Lauren Buckley
 
 ## A. Paper associated with this archive 
-Citation: Buckley LB et al. Quantifying organismal function through time to detect ecological and evolutionary responses to environmental change
+Citation: Buckley LB et al. Repeating historical studies to understand functional responses to environmental change
 
-Brief abstract: Heterogeneity and seeming unpredictability in phenology, abundance, and distribution responses to climate change is driving a push to understand the underlying organismal mechanisms. The 2024 Vice Presidential Symposium of the American Society of Naturalists aimed to catalyze a promising and underutilized approach to solving the problem of unpredictability in climate change biology: repeating experiments or otherwise quantifying organism function through time. Many “historical” physiological, behavioral, ecological, and evolutionary experiments or observations reported in journal articles and elsewhere offer the potential for repeating the data collection to detect ecological or evolutionary responses to environmental change. The approach extends beyond resurrection studies, which revive organisms to compare function and performance of modern organisms to their historic counterparts but are severely taxonomically and logistically restricted. In this article introducing the special section, we discuss the promise of functional resurveys and highlight exemplar research repeating physiological measurements, behavioral experiments or observations, selection and quantitative genetic experiments, and measurement of ecosystem function.  We also feature novel approaches to infer function from both modern and historic specimens, including temporal genomics, quantifying composition or energy stores, and genomic reconstruction. The research is revealing key organismal mechanisms that mediate responses to environmental changes and can be accounted for to improve ecological and evolutionary forecasts.
+Brief abstract: Heterogeneity and seeming unpredictability in responses to environmental change is driving a push to understand the underlying organismal mechanisms. The 2024 Vice Presidential Symposium of the American Society of Naturalists aimed to catalyze a promising and underutilized approach to extend understanding: repeating historical experiments or otherwise quantifying organism function through time. Many physiological, behavioral, ecological, and evolutionary experiments or observations reported in journal articles and elsewhere offer the potential for repeating the data collection to detect responses to environmental change. The approach extends beyond resurrection studies, which revive organisms to compare function and performance of modern organisms to their historical counterparts but are severely taxonomically and logistically restricted. In this introductory article, we discuss the promise of functional resurveys and highlight exemplar research repeating physiological measurements, behavioral experiments or observations, selection and quantitative genetic experiments, and measurement of ecosystem function.  We also feature novel approaches to infer function from both modern and historic specimens and data, including temporal genomics, quantifying composition or energy stores, and genomic reconstruction. The research reveals key organismal mechanisms that mediate responses to environmental changes and can be accounted for to improve ecological and evolutionary forecasts.
 
 ## B. Originators
 
@@ -26,7 +26,7 @@ No new data are collected, but see references for past data utilized.
 See source publications
 
 ## F. Funding Sources 
-This research was supported by the US National Science Foundation (DEB-1120062 and IOS- 2222089 to L.B.B.).
+This research was supported by the US National Science Foundation (DEB-1120062 and IOS- 2222089 to LBB; NSF-DEB 2102974 to JR; OISE-1743711 and DEB-2343787 to MLP).
 
 # ACCESS INFORMATION
 
